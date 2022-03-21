@@ -1,7 +1,0 @@
-{
-  "name": "learning",
-  "packageManager": "yarn@3.2.0",
-  "dependencies": {
-    "web3": "^1.7.1"
-  }
-}
