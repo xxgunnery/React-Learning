@@ -1,6 +1,14 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from 'react'
+import ReactDOM from 'react-dom'
+import './index.css'
 
-import {exports} from './practice/exports.js'
+import {moshES6} from './practice/Mosh.js'
 
-exports()
+function Module() {
+  return (
+    moshES6.exports()
+  )
+}
+
+ReactDOM.render(<Module />, document.getElementById("root"))
+

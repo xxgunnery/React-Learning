@@ -11,3 +11,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#root {
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.description {
+  font-family: calibri;
+  font-size: 22px;
+}
