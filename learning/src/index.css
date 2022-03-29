@@ -61,3 +61,63 @@ code {
   visibility: hidden;
   height: 0px;
 }
+
+
+.imgShrink {
+  width: 100px;
+  height: auto;
+}
+
+.hidden {
+  visibility: hidden;
+  height: 0;
+}
+.visible {
+  visibility: visible;
+  height: auto;
+}
+
+.travel--container {
+  display: flex;
+}
+.travel--mainimg {
+  width: 300px;
+  height: auto;
+  border-radius: 15px;
+}
+.travel--information {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.travel--topdata {
+  display: flex;
+  align-items: center;
+}
+.travel--topdata > img {
+  width: 24px;
+  height: auto;
+  margin-right: 4px;
+}
+.travel--topdata > a {
+  font-size: 14px;
+  color: black;
+  margin-left: 15px;
+  background-color: pink;
+  padding: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 100px;
+}
+.travel--information--title {
+  font-size: 30px;
+  font-weight: 800;
+  margin-bottom: 15px;
+}
+.travel--information--date {
+  font-size: 14px;
+  font-weight: 800;
+}
+.travel--information--description {
+  margin-top: 5px;
+}

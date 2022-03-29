@@ -27,7 +27,6 @@ function ReactZir() {
 function ES6() {
   return (
     <div>
-      <Button />
       {MoshES6.varReplacements("varReplacements")}
       {MoshES6.objects("objects")}
       {MoshES6.thisKeyword("thisKeyword")}
@@ -44,6 +43,7 @@ function ES6() {
 function Module() {
   return (
     <div className="container">
+        <Button />
         <ReactZir />
     </div>
   )
