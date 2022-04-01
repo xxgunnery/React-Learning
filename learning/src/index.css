@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  background-color: grey;
   font-size: 22px;
   font-family: "oxygen";
   -webkit-font-smoothing: antialiased;
@@ -120,4 +121,40 @@ code {
 }
 .travel--information--description {
   margin-top: 5px;
+}
+.event--example {
+  background-color: #EEEEEE;
+  padding: 5px;
+  border-radius: 5px;
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.event--example > p {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: 1px solid black;
+  padding: 3px;
+}
+.event--example > button {
+  margin-right: 3px;
+  margin-left: 3px;
+}
+.event--example--count {
+  width: 50px;
+  text-align: center;
+}
+.box {
+  border: 1px solid black;
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+  margin-right: 4px;
+  cursor: pointer;
+}
+.condRender--messages {
+  height: 50px;
+  font-size: 20px;
 }

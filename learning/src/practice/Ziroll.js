@@ -1,5 +1,8 @@
+import React from 'react'
+
 import Props from "./ZirollFiles/Props"
-import Event from "./ZirollFiles/Event"
+import EventState from "./ZirollFiles/EventState"
+import CondRender from './ZirollFiles/CondRender'
 import ArrayTrick from "./ZirollFiles/ArrayTrick"
 import Travel from "./ZirollFiles/Travel"
 import data from "./ZirollFiles/TravelData"
@@ -7,6 +10,9 @@ import monkey from "./images/karamja.png"
 
 export const Ziroll = {
     App() {
+
+        const [isNumComponents, setIsNumComponents] = React.useState(0)
+
         const travels = data.map(location => {
             return (
                 <Travel
@@ -28,7 +34,12 @@ export const Ziroll = {
                     class="hidden"
                 />
                 {travels}
-                <Event
+                <EventState
+                    class="hidden"
+                    numComponents={isNumComponents}
+                    setNumComponents={setIsNumComponents}
+                />
+                <CondRender
                     class="visible"
                 />
             </div>
