@@ -3,6 +3,7 @@ import React from 'react'
 import Props from "./ZirollFiles/Props"
 import EventState from "./ZirollFiles/EventState"
 import CondRender from './ZirollFiles/CondRender'
+import Forms from './ZirollFiles/Forms'
 import ArrayTrick from "./ZirollFiles/ArrayTrick"
 import Travel from "./ZirollFiles/Travel"
 import data from "./ZirollFiles/TravelData"
@@ -40,8 +41,12 @@ export const Ziroll = {
                     setNumComponents={setIsNumComponents}
                 />
                 <CondRender
+                    class="hidden"
+                />
+                <Forms
                     class="visible"
                 />
+
             </div>
         )
     }

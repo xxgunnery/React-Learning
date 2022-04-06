@@ -158,3 +158,79 @@ code {
   height: 50px;
   font-size: 20px;
 }
+.reactForms {
+  display: flex;
+  flex-direction: column;
+}
+
+.reactForms > * {
+  margin-top: 15px;
+  width: 400px;
+  border: 1px solid black;
+}
+
+.reactForms2 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.reactForms2 > input {
+  font-family: "oxygen";
+  width: 400px;
+  color: black;
+  font-size: 16px;
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: 3px solid #424242;
+}
+.reactForms2 > input:focus {
+  outline: none;
+}
+.reactForms2 > .correct {
+  background-color: #A5D6A7;
+}
+.reactForms2 > .incorrect {
+  background-color: #EF9A9A;
+}
+.reactForms2 > input::placeholder {
+  color: black;
+}
+.reactForms2 > div {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.reactForms2 > div > input[type="checkbox"] {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background-color: #FFFFFF;
+  outline: 1px solid black;
+  border-radius: 4px;
+}
+.reactForms2 > div > input[type="checkbox"]:checked {
+  content: "";
+  background-color: black;
+  border: 3px solid white;
+}
+.reactForms2 > div > label {
+  text-align: center;
+  display: inline-block;
+  width: 200px;
+  text-overflow: wrap;
+}
+.reactForms2 > button {
+  width: 100px;
+  padding: 8px;
+  font-family: "oxygen";
+  font-size: 20px;
+  font-weight: 800;
+  margin-top: 5px;
+  border: 2px solid black;
+  background-color: #FFB300;
+  cursor: pointer;
+  border-radius: 10px;
+}
