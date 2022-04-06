@@ -1,11 +1,11 @@
 # GETTING CAUGHT UP ON WEB2...
 
 This repository is meant to:
--Document my learning of React
--Get me used to using Yarn as a package manager
--Get me used to making Git commits
--Get me used to writing some markdown
--Create AND display live code examples for various functionality
+- Document my learning of React
+- Get me used to using Yarn as a package manager
+- Get me used to making Git commits
+- Get me used to writing some markdown
+- Create AND display live code examples for various functionality
 
 ## Uses some goofy spaghetti code to display code blocks of ES6 JavaScript
 ```
