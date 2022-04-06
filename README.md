@@ -58,5 +58,6 @@ export const MoshES6 = {
 ## Using this app:
 
 1. Clone the repository
-2. `yarn start`
+2. Download the packages with: `yarn`
+2. Start the react app: `yarn start`
 3. Happy coding
