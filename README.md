@@ -8,6 +8,7 @@ This repository is meant to:
 - Create AND display live code examples for various functionality
 
 ## Uses some goofy spaghetti code to display code blocks of ES6 JavaScript
+
 ```
 export const MoshES6 = {
     varReplacements(name) {
@@ -51,8 +52,8 @@ export const MoshES6 = {
 ```
 ## Learning resources:
 
--Rob Ziroll course from freeCodeCamp on YouTube [LINK](https://www.youtube.com/watch?v=bMknfKXIFA8)
--Mosh Hamedani course on YouTube [LINK](https://www.youtube.com/watch?v=NCwa_xi0Uuc)
+- Rob Ziroll course from freeCodeCamp on YouTube [LINK](https://www.youtube.com/watch?v=bMknfKXIFA8)
+- Mosh Hamedani course on YouTube [LINK](https://www.youtube.com/watch?v=NCwa_xi0Uuc)
 
 ## Using this app:
 
